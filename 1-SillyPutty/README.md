@@ -54,7 +54,7 @@
 
 6. Is it likely that this binary is packed?
 ```
-	Yes, because the virtual-size is much greater than the raw-size
+	No, because the virtual-size is close to the raw-size
 ```
 ![image](https://github.com/user-attachments/assets/a13ee614-a812-482f-b513-5270303582ce)
 
