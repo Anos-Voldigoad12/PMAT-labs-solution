@@ -13,12 +13,13 @@
 ```
 
 3. Are there any results from submitting the SHA256 hash to VirusTotal?
+
 ![VirusTotal Results](https://github.com/user-attachments/assets/04f3f7bc-fa5d-46ec-ac24-54950d0d7aba)
 
 
 4. Describe the results of pulling the strings from this binary. Record and describe any strings that are potentially interesting. Can any interesting information be extracted from the strings?
 ```
-    SSHCONNECTION@putty.projects.tartarus.org-2.0-
+    		SSHCONNECTION@putty.projects.tartarus.org-2.0-
 		%s Security Alert
 		The first %s supported by the server
 		is %s, which is below the configured
@@ -48,8 +49,15 @@
 
 5. Describe the results of inspecting the IAT for this binary. Are there any imports worth noting?
 
+![image](https://github.com/user-attachments/assets/85cce69b-364d-4375-80ea-879f346e1f34)
+
 
 6. Is it likely that this binary is packed?
+```
+	Yes, because the virtual-size is much greater than the raw-size
+```
+![image](https://github.com/user-attachments/assets/a13ee614-a812-482f-b513-5270303582ce)
+
 
 ## Basic Dynamic Analysis
 
